@@ -5,6 +5,6 @@ do
   echo "$(date) - still trying"
   sleep 1
 done
-echo "$(date) - connected successfully"
+echo "$(date) - MongoDB server is successfully connected"
 
 java -jar ordering-*.jar
